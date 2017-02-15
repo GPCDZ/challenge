@@ -17,7 +17,7 @@ The entity is described like this:
 * description : string
 * type : string
 
-for the **user** we need to use another service called userService, this service will be provided to you
+for the column createdBy [**user**] we need to use another service called userService, this service will be provided to you
 the user service Expose endpoint to manage users.
 the service is protected by a simple token to secure the endpoints just for the simplicity, to get a token you need just to 
 use `GET /api/token`
